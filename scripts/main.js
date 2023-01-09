@@ -21,9 +21,9 @@ $(window).scroll(function() {
   }
 
   if ($(this).scrollTop() > 800) {
-    $("#go-up").fadeIn(400);
+    $(".go-up").fadeIn(400);
   } else {
-    $('#go-up').fadeOut(400);
+    $('.go-up').fadeOut(400);
   }    
 });
 
