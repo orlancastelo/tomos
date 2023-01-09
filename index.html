@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomo's Bar and Restaurant</title>
+  <link rel="icon" href="./assets/tomosLogo.ico">
+  <script src="https://kit.fontawesome.com/c19eb14599.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <!-- CALENDAR -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+<body>
+  <section class="navigation" id="navigation">
+    <div class="container">
+      <nav>
+        <img src="./assets/tomosLogo.png" alt="Logo" class="logo" id="logo">
+        <ul id="sideMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+          <i class="fas fa-times" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openMenu()"jj></i>
+      </nav>
+    </div>
+  </section>
+
+  <section class="hero" id="hero">
+    <div class="box owl-carousel">
+      <div class="inner-box">
+        <img src="./assets/heroBanner.jpg" alt="Image">
+      </div>
+      <div class="inner-box">
+        <img src="./assets/heroBanner2.jpg" alt="Image">
+      </div>
+      <div class="inner-box">
+        <img src="./assets/heroBanner3.jpg" alt="Image">
+      </div>
+      <div class="inner-box">
+        <img src="./assets/heroBanner4.jpg" alt="Image">
+      </div>
+    </div>
+  </section>
+
+  <section class="food reveal">
+    <div class="box">
+      <div class="inner-box">
+        <div class="introduction">
+          <h2>Welcome to Tomo's Bar & Restaurant</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ab expedita fuga distinctio qui sint illo tempora animi, voluptatem rem enim nihil reprehenderit ipsum exercitationem dolore doloribus illum provident molestiae officiis, non modi ad magnam? Dolor animi delectus saepe doloribus cumque fugiat repudiandae est illo ducimus, excepturi, sequi sunt officiis.
+          </p>
+        </div>
+        <div class="img-gallery">
+          <img src="./assets/home1.jpg" class="home1" alt="Image">
+          <img src="./assets/home2.jpg" class="home2" alt="Image">
+          <img src="./assets/home3.jpg" class="home3" alt="Image">
+          <img src="./assets/home4.jpg" class="home4" alt="Image">
+        </div>
+      </div>
+      <div class="inner-box video">
+        <video controls autoplay muted loop>
+          <source src="./assets/Tomo's.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div id="about-us"></div>
+    </div>
+  </section>
+  
+  <section class="about-us reveal">
+    <h1>About Us</h1>
+    <div class="box">
+      <div class="inner-box">
+        <h2>Our Story</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro hic similique suscipit? Est magni praesentium nulla, at nesciunt nemo labore totam molestiae ut facere velit deleniti explicabo optio laboriosam quas quo quis sint quisquam autem! Minima assumenda inventore, doloribus, suscipit, optio itaque temporibus labore doloremque repudiandae distinctio dolor ipsum architecto blanditiis incidunt placeat earum sunt quo explicabo reiciendis fugiat possimus dicta id provident. Amet dignissimos rem expedita maiores magni porro voluptatibus quia delectus qui fuga illum, mollitia quam! Exercitationem recusandae perferendis minima vel distinctio accusantium, quae, sint temporibus nemo doloribus, corporis cupiditate dolorum unde voluptas esse molestias! Voluptate, eligendi. A?
+        </p>
+      </div>
+      <div id="menu"></div>
+      <div class="inner-box">
+        <img src="./assets/about-us.jpg" alt="Image">
+      </div>
+    </div>
+  </section>
+
+  <section class="menu reveal">
+    <h1>Our Menu</h1>
+    <div class="box">
+      <div class="inner-box">
+        <div class="img-box">
+          <img src="./assets/menu1.jpg" id="menu1" alt="Image">
+        </div>
+        <div class="img-box">
+          <img src="./assets/menu2.jpg" id="menu2" alt="Image">
+        </div>
+        <div class="img-box">
+          <img src="./assets/menu3.jpg" id="menu3" alt="Image">
+        </div>
+        <div class="img-box">
+          <img src="./assets/menu4.jpg" id="menu4" alt="Image">
+        </div>
+        <div class="img-box">
+          <img src="./assets/menu5.jpg" id="menu5" alt="Image">
+        </div>
+        <div class="img-box">
+          <img src="./assets/menu6.jpg" id="menu6" alt="Image">
+        </div>
+        <div class="img-box">
+          <img src="./assets/menu7.jpg" id="menu7" alt="Image">
+        </div>
+        <div class="img-box">
+          <div id="location"></div>
+          <img src="./assets/menu8.jpg" id="menu8" alt="Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="location reveal">
+    <h1>Our Location</h1>
+    <div class="box">
+      <div class="inner-box">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe width="100%" height="426" id="gmap_canvas" src="https://maps.google.com/maps?q=tomo's%20resto%20bar%20cabanatuan%20city&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+          </div>
+          <div id="contact-us"></div>
+        </div>
+      </div>
+      <div class="inner-box owl-carousel">
+        <img src="./assets/food1.jpg" alt="Image">
+        <img src="./assets/food2.jpg" alt="Image">
+        <img src="./assets/food3.jpg" alt="Image">
+        <img src="./assets/food4.jpg" alt="Image">
+        <img src="./assets/food5.jpg" alt="Image">
+        <img src="./assets/food6.jpg" alt="Image">
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-us reveal">
+    <h1>Contact Us</h1>
+    <div class="box">
+      <div class="inner-box">
+        <img src="./assets/contact-us.jpg" alt="Image">
+      </div>
+      <div class="inner-box form">
+        <form action="#">
+          <div class="form-box">
+            <h2>Researve a table now!</h2>
+          </div>
+          <div class="form-box">
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+          <div class="form-box">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+          <div class="form-box">
+            <input type="number" class="form-control" placeholder="Mobile Number">
+          </div>
+          <div class="form-box">
+            <input type="text" id="datepicker" class="form-control" placeholder="Date" autocomplete="off">
+          </div>
+          <div class="form-box">
+            <input type="number" class="form-control" placeholder="Number of persons">
+          </div>
+          <div class="form-box">
+            <button>Researve Now</button>
+          </div class="form-box">
+            <h3>You can also contact us at 0917-133-8000 </h3>
+          </div>
+        </form>
+        <div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="box">
+      <div class="inner-box">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      
+      <div class="inner-box">
+        <div class="sub-menu">
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of use</a> | <a href="">Cancellation Policy</a>
+        </div>
+      </div>
+
+      <div class="inner-box">
+        <div class="footer-end">
+          <h4>Tomo's Bar and Restaurant</h4>
+          <p>All Reserved &copy; 2023</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a href="#navigation" class="go-up"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <div id="imgModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="menu-1">
+    <img class="modal-content" id="menu-2">
+    <img class="modal-content" id="menu-3">
+    <img class="modal-content" id="menu-4">
+    <img class="modal-content" id="menu-5">
+    <img class="modal-content" id="menu-6">
+    <img class="modal-content" id="menu-7">
+    <img class="modal-content" id="menu-8">
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="./scripts/main.js"></script>
+
+</body>
+</html>
