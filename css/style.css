@@ -725,6 +725,7 @@ nav .fas {
 
   .food .box .img-gallery img {
     padding: 10px 5px;
+    border-radius: 14px;
   }
 
   .food .box .video {
