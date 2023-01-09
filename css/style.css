@@ -183,6 +183,10 @@ nav .fas {
   padding: 10px;
 }
 
+food .introduction {
+  text-align: center;
+}
+
 .food .introduction p {
   text-align: justify;
   text-justify: inter-word;
