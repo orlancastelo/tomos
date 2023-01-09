@@ -625,6 +625,10 @@ nav .fas {
   nav ul .fa-times {
     color: #fff;
   }
+  
+  .logo {
+    width: 60px;
+  }
 
   .hero .box .inner-box img {
     width: 100%;
@@ -693,6 +697,10 @@ nav .fas {
 
   h2 {
     font-size: 17px;
+  }
+  
+  .logo {
+    width: 50px;
   }
 
   #hero .owl-prev {
